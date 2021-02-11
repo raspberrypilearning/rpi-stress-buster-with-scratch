@@ -61,9 +61,9 @@ Add the following blocks to your script to read the input from your switch
 
 ```blocks3
 when flag clicked
-set gpio [17 v] to input [pulled high v]
+set gpio [17 v] to input [pulled high v] ::extension
 
-when gpio [17 v] is [low v] ::extension
+when gpio [17 v] is [low v] ::hat extension
 move (10) steps
 ```
 
