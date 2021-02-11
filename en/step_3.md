@@ -1,6 +1,6 @@
 ## Highs and Lows
 
-In this step, you will learn about the differences between pins being **High** and pins being **Low**
+In this step, you will learn about the differences between input pins being pulled **High** or **Low**
 
 At the moment, your program looks like this:
 
@@ -29,13 +29,18 @@ move (10) steps
 Click the green flag and try touching the leads together again. Does the sprite move?
 
 --- /task ---
-In the previous project, you learned that an output pin can be set **High** or **Low**. It's either at **3V3** volts or **0V**
 
-Imagine a balloon floating about in a room. It's not touching the ceiling or the floor. When you move the balloon by tapping it a little bit, it's difficult to know whether it goes **High** or **Low**. You could tie the balloon to the floor, and then we'd know that it was **Low**. Or you could tie it to the ceiling, and know that the balloon was **High**. Then when you move the balloon, you know whether it has stopped touching the floor or ceiling.
+In the previous project, you learned that an output pin can be set **High** or **Low**. It's either at **3V3** volts or **0V**. What does this mean for input pins though?
+
+Imagine a balloon floating about in the middle of a drafty room. The balloon keeps moving up and down, but how can you tell if it's **High** in the room or **Low** in the room. 
+
+If you tied the balloon to the floor, then you would know that it is as **Low** as it can possible be. If you tied it to the ceiling, then you know that the balloon is as **High** as it can possible be.
+
+Now if cut the tie and the balloon moves, you can easily tell if it moves higher or lower than it's start position.
 
 ANIMATED GIF HERE OF BALLOON
 
-This is what happens when you pull an input pin **Low** or **High**. You are either setting the pin to be at **0V** or setting it to be at **3V3**. Then if the pin's state changes, you know that it has either stopped being **Low** or stopped being **High**
+This is what happens when you pull an input pin **Low** or **High**. You are either tieing the pin to be as low as it can be, which is **0V** or tieing it to be as high as it can be, which is **3V3**. Any change in the pin is now easy to detect. It should be either at **0V** or **3V3**, and if it moves from those levels, you know something has changed.
 
 --- task ---
 
@@ -51,4 +56,4 @@ Now try clicking the green flag and touching the jumper leads together, and see 
 
 --- /task ---
 
-Because your homemade switch is now connected to **3V3**, and the input pin is pulled **Low**, when you touch the leads together, the input pin goes from **Low** at **0V** to **High** at **3V3** volts.
+Because your homemade switch is now connected to **3V3**, and the input pin is pulled **Low**, when you touch the leads together, the input pin goes from **Low** at **0V** to **High** at **3V3** volts, and Scratch detects this and so moves your sprite.
