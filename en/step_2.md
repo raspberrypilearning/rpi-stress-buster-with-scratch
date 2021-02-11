@@ -1,6 +1,7 @@
 ## Step title
 
 In this step you will learn how to move a sprite using a simple switch.
+
 --- task ---
 
 Open Scratch on your Raspberry Pi.
@@ -19,6 +20,7 @@ move (10) steps
 ```
 
 Click the green flag and then press the **space** key a few times to see the sprite move.
+
 --- /task ---
 
 Now you are going to add another **event** that moves the sprite, using a homemade physical switch.
