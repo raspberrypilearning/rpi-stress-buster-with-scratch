@@ -53,8 +53,6 @@ Add the **Raspberry Pi GPIO** extension to your Scatch program.
 
 --- /task ---
 
-
-
 --- task ---
 
 Add the following blocks to your script to read the input from your switch
