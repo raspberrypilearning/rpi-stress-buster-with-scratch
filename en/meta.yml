@@ -1,6 +1,6 @@
-title: simple-scratch-game-controller
+title: Simple Scratch game controller with a Raspberry Pi
 hero_image: images/banner.png
-description: simple-scratch-game-controller description
+description: Control a Scratch sprite with a simple switch on your Raspberry Pi
 version: 4
 listed: false
 copyedit: false
