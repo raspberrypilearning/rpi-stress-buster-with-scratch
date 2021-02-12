@@ -1,59 +1,46 @@
-## Highs and Lows
+## Keys vs switches
 
-In this step, you will learn about the differences between input pins being pulled **High** or **Low**
+At the moment you have two ways of moving the sprite. You can press the **space key** or you can touch the jumper leads together.
 
-At the moment, your program looks like this:
+--- task ---
+
+Hold down the **space key** on your keyboard for a few seconds and see what happens.
+
+--- /task ---
+
+--- task ---
+
+Now drag the sprite back to the centre of the screen and hold the jumper leads together for a few seconds and see what happens.
+
+--- /task ---
+
+Computers don't just read a pressed key as a single **on** signal. Instead they read it as lots of **on** then **off** signals. This is why when you are typing and you hold down a key, a long line of characters is produced. It also means that your sprite keeps moving.
+
+Your switch signal is just a single *on** though, so your sprite only moves once. You can make your switch behave like a keyboard key, using some code though.
+
+--- task ---
+
+Remove all you code blocks, by dragging them back to the **blocks palate** 
+
+--- /task ---
+
+--- task ---
+
+Now you can use a `forever`{:class='block3control'} loop, with an `if...then`{:class='block3control'} block inside to constantly check if the switch is pressed.
 
 ```blocks3
 when flag clicked
-set gpio [17 v] to input [pulled high v] ::extension
-
-when gpio [17 v] is [low v] ::hat extension
+forever
+if <button (17 v) is [pressed v]? ::extension> then
 move (10) steps
 ```
 
-You can see that when the **green flag** is clicked, that pin GP17 is set to an **input** and **pulled high**. What does this mean?
-
---- task ---
-
-Change the dropdowns on the script, to set the pin to an **input** that is **pulled low**. Also change the event block so that is looking for pin GP17 being **High**
-
-```blocks3
-when flag clicked
-set gpio [17 v] to input [pulled low v] ::extension
-
-when gpio [17 v] is [high v] ::hat extension
-move (10) steps
-```
-
-Click the green flag and try touching the leads together again. Does the sprite move?
-
---- /task ---
-
-In the previous project, you learned that an output pin can be set **High** or **Low**. It's either at **3V3** volts or **0V**. What does this mean for input pins though?
-
-Imagine a balloon floating about in the middle of a drafty room. The balloon keeps moving up and down, but how can you tell if it's **High** in the room or **Low** in the room. 
-
-If you tied the balloon to the floor, then you would know that it is as **Low** as it can possible be. If you tied it to the ceiling, then you know that the balloon is as **High** as it can possible be.
-
-Now if cut the tie and the balloon moves, you can easily tell if it moves higher or lower than it's start position.
-
-ANIMATED GIF HERE OF BALLOON
-
-This is what happens when you pull an input pin **Low** or **High**. You are either tieing the pin to be as low as it can be, which is **0V** or tieing it to be as high as it can be, which is **3V3**. Any change in the pin is now easy to detect. It should be either at **0V** or **3V3**, and if it moves from those levels, you know something has changed.
-
---- task ---
-
-Take the jumper lead that is currently attached to a **ground pin** and move it to a **3V3** pin. A **3V3** pin is always **High**.
-
-![Diagram of a Raspberry Pi with male to female jumper leads attached to pin 17 and a 3V3 pin](images/m-f-3v3.png)
-
 --- /task ---
 
 --- task ---
 
-Now try clicking the green flag and touching the jumper leads together, and see what happens.
+Run your program by clicking the green flag, then touch your jumper leads together, and your sprite should keep moving 10 steps.
 
 --- /task ---
 
-Because your homemade switch is now connected to **3V3**, and the input pin is pulled **Low**, when you touch the leads together, the input pin goes from **Low** at **0V** to **High** at **3V3** volts, and Scratch detects this and so moves your sprite.
+--- save ---

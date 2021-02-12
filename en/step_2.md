@@ -49,7 +49,7 @@ Now connect a second M-F jumper lead to pin GP17 on your Raspberry Pi.
 
 --- task ---
 
-Add the **Raspberry Pi GPIO** extension to your Scatch program.
+Add the **Raspberry Pi Simple Electronics** extension to your Scratch program.
 
 ![image showing the Raspberry Pi GPIO extension icon in Scratch](images/gpio-extension.png)
 
@@ -60,10 +60,7 @@ Add the **Raspberry Pi GPIO** extension to your Scatch program.
 Add the following blocks to your script to read the input from your switch
 
 ```blocks3
-when flag clicked
-set gpio [17 v] to input [pulled high v] ::extension
-
-when gpio [17 v] is [low v] ::hat extension
+when button [17 v] is [pressed v] ::hat extension
 move (10) steps
 ```
 
