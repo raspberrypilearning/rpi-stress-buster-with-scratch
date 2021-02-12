@@ -14,9 +14,9 @@ Now drag the sprite back to the centre of the screen and hold the jumper leads t
 
 --- /task ---
 
-Computers don't just read a pressed key as a single **on** signal. Instead they read it as lots of **on** then **off** signals. This is why when you are typing and you hold down a key, a long line of characters is produced. It also means that your sprite keeps moving.
+Computers don't just read a pressed key as **on**. Instead they read it as lots of **ons** then **offs**. This is why when you are typing and you hold down a key, a long line of characters is produced. It also means that in your project, the sprite keeps moving.
 
-Your switch signal is just a single *on** though, so your sprite only moves once. You can make your switch behave like a keyboard key, using some code though.
+Your switch sends just a single **on** though, so your sprite only moves once. You can make your switch behave like a keyboard key, using some code.
 
 --- task ---
 
