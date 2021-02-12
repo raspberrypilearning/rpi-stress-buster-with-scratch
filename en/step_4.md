@@ -50,7 +50,7 @@ end
 
 --- task ---
 
-Right click on the `switch costume to wings-down`{:class='block3looks} block and choose `Duplicate` from the menu.
+Right click on the `switch costume to wings-down`{:class='block3looks'} block and choose `Duplicate` from the menu.
 
 --- /task ---
 
@@ -62,7 +62,6 @@ Take the newly duplicated blocks and add them into you `if...then`{:class='block
 when flag clicked
 forever
 if <button (17 v) is [pressed v]? ::extension> then
-when [space v] key pressed
 switch costume to (wings down v)
 repeat (5) 
   change y by (6)
