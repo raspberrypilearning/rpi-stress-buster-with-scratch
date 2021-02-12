@@ -14,7 +14,7 @@ Cut a sheet of aluminium foil, about 15cm by 15cm.
 
 Fold the foil several times, until you have a square that is about 3cm by 3cm.
 
-![Image of a folded square of aluminium foil, about 3cm by 3cm](images/foil-folded,jpg)
+![Image of a folded square of aluminium foil, about 3cm by 3cm](images/foil-folded.jpg)
 
 Repeat this, so that you have two folded squares of foil.
 
@@ -40,7 +40,7 @@ Glue the straws in place.
 
 Glue the second square to the top of the straws.
 
-![image of second square of foil, glued to the top of the straws](images/foil-glued)
+![image of second square of foil, glued to the top of the straws](images/foil-glued.jpg)
 
 --- /task ---
 
