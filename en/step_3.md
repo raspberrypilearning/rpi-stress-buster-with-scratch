@@ -31,7 +31,7 @@ Click on the `Flappy` sprite to see the code that is attached to it.
 Just like you did in the last step, add a `when button 21 is pressed`{:class='block3extensions'} block to the code.
 
 ```blocks3
-when button (21 v) is [pressed v] ::extension ::hat
+when button (21 v) is [pressed v] ::extension hat
 ```
 
 --- /task ---
@@ -58,7 +58,7 @@ Right click on the `set [whirl v] effect to (100)`{:class='block3looks'} block a
 Take the newly duplicated blocks and add them underneath the `when button 21 is pressed`{:class='block3extensions'} block, so that your blocks look like this.
 
 ```blocks3
-when button (21 v) is [pressed v] ::extension ::hat
+when button (21 v) is [pressed v] ::extension hat
 set [whirl v] effect to (100)
 change size by (-50)
 play sound (Squeaky Toy v) until done
