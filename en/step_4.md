@@ -1,81 +1,59 @@
-## Adding a switch to a game
+## Make your own button
 
-The [Flappy Parrot](https://projects.raspberrypi.org/en/projects/flappy-parrot) project is a game that you can add a physical controller to. You can either use the instructions to create the game yourself, or you can remix this finished [Scratch project](https://scratch.mit.edu/projects/258349724/).
+Now that you have programmed your game, you can make a button that you can push to help relieve some stress.
 
 --- task ---
 
-Open the Flappy Parrot Scratch project on your Raspberry Pi, or if you are using the online project, save it to your Raspberry Pi, and open it in your offline version of Scratch.
+Cut a sheet of aluminium foil, about 15cm by 15cm.
 
-Play the game, using the **Space key** to control the `Flappy` sprite.
+![image of a sheet of aluminium foil, about 15cm squared](images/foil.jpg)
 
 --- /task ---
 
 --- task ---
 
-Add the **Raspberry Pi Simple Electronics** extension to your project.
+Fold the foil several times, until you have a square that is about 3cm by 3cm.
+
+![Image of a folded square of aluminium foil, about 3cm by 3cm](images/foil-folded.jpg)
+
+Repeat this, so that you have two folded squares of foil.
 
 --- /task ---
 
 --- task ---
 
-Click on the `Flappy` sprite to see the code that is attached to it.
+Take a drinking straw and cut off four sections, so that you can arrange them in a square around the edges of one square of foil.
+
+![image of four sections of drinking straw arranged around the edges of the foil square](images/straws-cut.jpg)
 
 --- /task ---
 
 --- task ---
 
-Just like you did in the last step, add a `forever`{:class='block3control'} loop to always detect the button press.
+Glue the straws in place.
 
-```blocks3
-when flag clicked
-forever
-if <button (17 v) is [pressed v]? ::extension> then
-```
-
---- /task ---
-
-The blocks that detect the **Space key** being pressed and make `Flappy` fly, look like this:
-
-```blocks3
-when [space v] key pressed
-switch costume to (wings down v)
-repeat (5) 
-  change y by (6)
-end
-switch costume to (wings up v)
-repeat (5) 
-  change y by (6)
-end
-```
-
---- task ---
-
-Right click on the `switch costume to wings-down`{:class='block3looks'} block and choose `Duplicate` from the menu.
+![image of four sections of straw, glued to the edges of one foil square](images/straws-glued.jpg)
 
 --- /task ---
 
 --- task ---
 
-Take the newly duplicated blocks and add them into you `if...then`{:class='block3control'} block, so that your blocks look like this.
+Glue the second square to the top of the straws.
 
-```blocks3
-when flag clicked
-forever
-if <button (17 v) is [pressed v]? ::extension> then
-switch costume to (wings down v)
-repeat (5) 
-  change y by (6)
-end
-switch costume to (wings up v)
-repeat (5) 
-  change y by (6)
-end
-```
+![image of second square of foil, glued to the top of the straws](images/foil-glued.jpg)
 
 --- /task ---
 
 --- task ---
 
-Run your program by clicking the green flag. You should be able to move `Flappy` up, by touching the jumper leads together and let `Flappy` fall by taking them apart.
+Tape one M-F jumper lead to the bottom square of foil, and the other to the top square of foil. It doesn't matter which lead goes to which square.
+
+![image of leads taped to the top and bottom squares of foil](images/leads-attached.jpg)
+
+--- /task ---
+
+--- task ---
+
+Run your program again, and you should be able to squeeze the ball by pushing down quite hard in the middle of your button, and forcing the two squares of aluminium to touch each other.
 
 --- /task ---

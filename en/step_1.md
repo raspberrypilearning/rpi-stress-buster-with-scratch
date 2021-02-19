@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project you will add a button to the [Stress ball](projects.raspberrypi.org/en/projects/stress-ball) project, so that you can squeeze the `Ball` sprite using a button.
 
 ### What you will make
 
@@ -22,17 +22,19 @@ title: What you will need
 ---
 ### Hardware
 
-+ A computer or tablet capable of running Scratch 3
++ A Raspberry Pi Computer
++ 2 M-F jumper leads
++ A drinking straw
++ A sheet of aluminium foil
++ Some glue
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ Scratch 3 Desktop
 
 ### Downloads
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
++ Download the [Stress ball project](http://rpf.io/p/en/stress-ball-get){:target="_blank"} and unzip the folder.
 
 --- /collapse ---
 
@@ -41,9 +43,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ How to make a simple switch with jumper-leads
++ How to use Scratch to detect physical inputs
++ How to make your own button
 
 --- /collapse ---
 
@@ -52,8 +54,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/simple-scratch-game-controller-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/simple-scratch-game-controller/print){:target="_blank"}.
 
 --- /collapse ---

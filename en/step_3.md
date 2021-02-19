@@ -1,46 +1,75 @@
-## Keys vs switches
+## Adding a switch to a game
 
-At the moment you have two ways of moving the sprite. You can press the **space key** or you can touch the jumper leads together.
+The [Stress ball](https://projects.raspberrypi.org/en/projects/flappy-parrot) project is a stress relieving program that you can add a physical controller to. You can either use the instructions to create the game yourself, or you can download the finished project at [rpf.io/en/p/stress-ball-get](https://rpf.io/en/p/stress-ball-get).
 
 --- task ---
 
-Hold down the **space key** on your keyboard for a few seconds and see what happens.
+Open the Stress ball Scratch project on your Raspberry Pi, using the Desktop version.
 
 --- /task ---
 
 --- task ---
 
-Now drag the sprite back to the centre of the screen and hold the jumper leads together for a few seconds and see what happens.
-
---- /task ---
-
-Computers don't just read a pressed key as **on**. Instead they read it as lots of **ons** then **offs**. This is why when you are typing and you hold down a key, a long line of characters is produced. It also means that in your project, the sprite keeps moving.
-
-Your switch sends just a single **on** though, so your sprite only moves once. You can make your switch behave like a keyboard key, using some code.
-
---- task ---
-
-Remove all you code blocks, by dragging them back to the **blocks palate** 
+Play the game, using the by clicking on the stress ball to squeeze it.
 
 --- /task ---
 
 --- task ---
 
-Now you can use a `forever`{:class='block3control'} loop, with an `if...then`{:class='block3control'} block inside to constantly check if the switch is pressed.
+Add the **Raspberry Pi Simple Electronics** extension to your project.
+
+--- /task ---
+
+--- task ---
+
+Click on the `Flappy` sprite to see the code that is attached to it.
+
+--- /task ---
+
+--- task ---
+
+Just like you did in the last step, add a `when button 21 is pressed`{:class='block3extension'} block to the code.
 
 ```blocks3
-when flag clicked
-forever
-if <button (17 v) is [pressed v]? ::extension> then
-move (10) steps
+when button (21 v) is [pressed v] ::extension>
+```
+
+--- /task ---
+
+The blocks that detect the **Space key** being pressed and make `Flappy` fly, look like this:
+
+```blocks3
+when this sprite clicked
+set [whirl v] effect to (100)
+change size by (-50)
+play sound (Squeaky Toy v) until done
+clear graphics effects
+set size to (200) %
+```
+
+--- task ---
+
+Right click on the `set [whirl v] effect to (100)`{:class='block3looks'} block and choose `Duplicate` from the menu.
+
+--- /task ---
+
+--- task ---
+
+Take the newly duplicated blocks and add them underneath the `when button 21 is pressed`{:class='block3extension'} block, so that your blocks look like this.
+
+```blocks3
+when button (21 v) is [pressed v] ::extension>
+set [whirl v] effect to (100)
+change size by (-50)
+play sound (Squeaky Toy v) until done
+clear graphics effects
+set size to (200) %
 ```
 
 --- /task ---
 
 --- task ---
 
-Run your program by clicking the green flag, then touch your jumper leads together, and your sprite should keep moving 10 steps.
+Run your program by clicking the green flag. You should be able to squeeze your `Ball` up, by touching the jumper leads together.
 
 --- /task ---
-
---- save ---
