@@ -22,12 +22,6 @@ Add the **Raspberry Pi Simple Electronics** extension to your project.
 
 --- task ---
 
-Click on the `Flappy` sprite to see the code that is attached to it.
-
---- /task ---
-
---- task ---
-
 Just like you did in the last step, add a `when button 21 is pressed`{:class='block3extensions'} block to the code.
 
 ```blocks3
@@ -36,7 +30,7 @@ when button (21 v) is [pressed v] ::extension hat
 
 --- /task ---
 
-The blocks that detect the **Space key** being pressed and make `Flappy` fly, look like this:
+The blocks that detect the **Click** and make `Ball` change, look like this:
 
 ```blocks3
 when this sprite clicked
