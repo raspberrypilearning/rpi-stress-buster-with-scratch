@@ -12,7 +12,7 @@ In this project you will add a button to the [Stress ball](projects.raspberrypi.
 
 --- print-only ---
 
-![homemade button being squeezed that causes a sprite to change in Scratch](images/simple-scratch-game-controller.gif)
+![homemade button being squeezed that causes a sprite to change in Scratch](images/simple-scratch-game-controller.png)
 
 --- /print-only ---
 
