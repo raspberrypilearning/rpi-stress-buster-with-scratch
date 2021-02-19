@@ -41,9 +41,9 @@ Connect one of your jumper leads to a Ground pin on the Raspberry Pi.
 
 --- task ---
 
-Now connect a second M-F jumper lead to pin GP17 on your Raspberry Pi.
+Now connect a second M-F jumper lead to pin GP21 on your Raspberry Pi.
 
-![image showing an additional lead connected to g p 17](images/m-f-gp17.png)
+![image showing an additional lead connected to gpio 21](images/m-f-gp21.png)
 
 --- /task ---
 
@@ -60,7 +60,7 @@ Add the **Raspberry Pi Simple Electronics** extension to your Scratch program.
 Add the following blocks to your script to read the input from your switch
 
 ```blocks3
-when button [17 v] is [pressed v] ::hat extension
+when button [21 v] is [pressed v] ::hat extension
 move (10) steps
 ```
 
