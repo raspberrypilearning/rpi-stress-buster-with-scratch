@@ -5,15 +5,15 @@ In this project you will add a button to the [Stress ball](projects.raspberrypi.
 ### What you will make
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+![animation of a homemade button being squeezed that causes a sprite to change in Scratch](images/simple-scratch-game-controller.gif)
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![homemade button being squeezed that causes a sprite to change in Scratch](images/simple-scratch-game-controller.gif)
+
 --- /print-only ---
 
 --- collapse ---
