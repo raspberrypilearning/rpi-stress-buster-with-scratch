@@ -11,7 +11,7 @@ steps:
   - title: Adding a switch to a game
   - title: Make your own button
   - title: Reflection
-      knowledge_quiz:
+    knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
