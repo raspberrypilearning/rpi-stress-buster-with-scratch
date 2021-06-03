@@ -1,6 +1,6 @@
 ## Adding a switch to a game
 
-The [Stress ball](https://projects.raspberrypi.org/en/projects/flappy-parrot) project is a stress relieving program that you can add a physical controller to. You can either use the instructions to create the game yourself, or you can download the finished project at [rpf.io/en/p/stress-ball-get](https://rpf.io/en/p/stress-ball-get).
+The [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball) project is a stress relieving program that you can add a physical controller to. You can either use the instructions to create the game yourself, or you can [download the finished project](https://rpf.io/en/p/stress-ball-get).
 
 --- task ---
 
@@ -10,13 +10,13 @@ Open the Stress ball Scratch project on your Raspberry Pi, using the Desktop ver
 
 --- task ---
 
-Play the game, using the by clicking on the stress ball to squeeze it.
+Play the game, clicking on the stress ball to squeeze it.
 
 --- /task ---
 
 --- task ---
 
-Add the **Raspberry Pi Simple Electronics** extension to your project.
+Add the Raspberry Pi `Simple Electronics`{:class="block3extensions"} extension to your project.
 
 --- /task ---
 
@@ -30,7 +30,7 @@ when button (21 v) is [pressed v] ::extension hat
 
 --- /task ---
 
-The blocks that detect the **Click** and make `Ball` change, look like this:
+The blocks that detect the **Click** and make the **Ball** sprite change, look like this:
 
 ```blocks3
 when this sprite clicked
@@ -43,7 +43,7 @@ set size to (200) %
 
 --- task ---
 
-Right click on the `set [whirl v] effect to (100)`{:class='block3looks'} block and choose `Duplicate` from the menu.
+Right click on the `set [whirl v] effect to (100)`{:class='block3looks'} block and choose **Duplicate** from the menu.
 
 --- /task ---
 
@@ -64,7 +64,7 @@ set size to (200) %
 
 --- task ---
 
-Run your program by clicking the green flag. You should be able to squeeze your `Ball` up, by touching the jumper leads together.
+Run your program by clicking the green flag. You should be able to squeeze your **Ball** sprite by touching the jumper wires together.
 
 --- /task ---
 
