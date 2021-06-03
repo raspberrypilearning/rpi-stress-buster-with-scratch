@@ -1,4 +1,4 @@
-## Step title
+## A simple switch
 
 In this step, you will learn how to move a sprite using a simple switch.
 
