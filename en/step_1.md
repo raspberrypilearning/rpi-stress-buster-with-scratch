@@ -1,18 +1,18 @@
 ## Introduction
 
-In this project you will add a button to the [Stress ball](projects.raspberrypi.org/en/projects/stress-ball) project, so that you can squeeze the `Ball` sprite using a button.
+In this project, you will add a button to the [Stress ball](projects.raspberrypi.org/en/projects/stress-ball) project, so that you can squeeze the **Ball** sprite using a button.
 
 ### What you will make
 
 --- no-print ---
 
-![animation of a homemade button being squeezed that causes a sprite to change in Scratch](images/simple-scratch-game-controller.gif)
+![Animation of a homemade button being squeezed that causes a sprite to change in Scratch.](images/simple-scratch-game-controller.gif)
 
 --- /no-print ---
 
 --- print-only ---
 
-![homemade button being squeezed that causes a sprite to change in Scratch](images/simple-scratch-game-controller.png)
+![A homemade button being squeezed, which causes a sprite to change in Scratch.](images/simple-scratch-game-controller.png)
 
 --- /print-only ---
 
@@ -23,7 +23,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi Computer
-+ 2 M-F jumper leads
++ 2× M-F jumper wires
 + A drinking straw
 + A sheet of aluminium foil
 + Some glue
@@ -43,7 +43,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to make a simple switch with jumper-leads
++ How to make a simple switch with jumper wires
 + How to use Scratch to detect physical inputs
 + How to make your own button
 
