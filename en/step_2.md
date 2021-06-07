@@ -41,7 +41,7 @@ Connect one of your jumper wires to a ground pin on the Raspberry Pi.
 
 --- task ---
 
-Now connect a second M-F jumper wire to pin GP21 on your Raspberry Pi.
+Now connect a second M-F jumper wire to Pin 21 on your Raspberry Pi.
 
 ![Image showing an additional wire connected to GPIO 21.](images/m-f-gp21.png)
 
