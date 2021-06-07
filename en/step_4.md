@@ -16,7 +16,7 @@ Fold the foil several times, until you have a square that is about 3 cm by 3 cm.
 
 ![Image of a folded square of aluminium foil, about 3 cm by 3 cm.](images/foil-folded.jpg)
 
-Repeat this with the second sheet, so that you have two folded squares of foil.
+Repeat this with a second sheet, so that you have two folded squares of foil.
 
 --- /task ---
 
