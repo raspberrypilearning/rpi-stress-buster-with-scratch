@@ -54,6 +54,6 @@ Tape one M-F jumper wire to the bottom square of foil, and the other to the top 
 
 --- task ---
 
-Run your program again, and you should be able to squeeze the **ball** sprite by pushing down quite hard in the middle of your button, and forcing the two squares of aluminium to touch each other.
+Run your program again. You should now be able to squeeze the **ball** sprite by pushing down firmly in the middle of your button until the two squares of aluminium touch each other.
 
 --- /task ---
