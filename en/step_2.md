@@ -1,63 +1,63 @@
-## Step title
+## A simple switch
 
-In this step you will learn how to move a sprite using a simple switch.
+In this step, you will learn how to move a sprite using a simple switch.
 
 --- task ---
 
 Open Scratch on your Raspberry Pi.
 
-![image showing the selected menu icon, then programming and then scratch 3](images/open-scratch.png)
+![Image showing the selected menu icon, then programming, and then Scratch 3](images/open-scratch.png)
 
 --- /task ---
 
 --- task ---
 
-You should see the Scratch Cat sprite on the stage. Start by using a **keyboard event** to make the sprite move, using the blocks shown below.
+You should see the Scratch **Cat** sprite on the Stage. Start by using a **keyboard event** to make the sprite move, using the blocks shown below.
 
 ```blocks3
 when  [space v] key pressed
 move (10) steps
 ```
 
-Click the green flag and then press the **space** key a few times to see the sprite move.
+Click the green flag and then press the <kbd>space</kbd> key a few times to see the sprite move.
 
 --- /task ---
 
-Now you are going to add another **event** that moves the sprite, using a homemade physical switch.
+Now you are going to add another **event** that moves the sprite, this time using a homemade physical switch.
 
-A switch works by letting electricity flow from one wire to another wire, to complete a circuit.
+A switch works by letting electricity flow from one wire to another wire, by closing a gap to complete a circuit.
 
-![image of switch, resistor, battery and LED. The switch closes and current is allowed to flow](https://rpf-futurelearn.s3-eu-west-1.amazonaws.com/teaching-physical-computing/circuitflow.gif)
+![Image of switch, resistor, battery, and LED. The switch closes and current is allowed to flow.](https://rpf-futurelearn.s3-eu-west-1.amazonaws.com/teaching-physical-computing/circuitflow.gif)
 
-You can make your own switch for your Raspberry Pi using two M-F jumper leads.
-
---- task ---
-
-Connect one of your jumper leads to a Ground pin on the Raspberry Pi.
-
-![image showing a male-female humper lead connected to a ground pin](images/m-f-ground.png)
-
---- /task ---
+You can make your own switch for your Raspberry Pi using two M-F jumper wires.
 
 --- task ---
 
-Now connect a second M-F jumper lead to pin GP21 on your Raspberry Pi.
+Connect one of your jumper wires to a ground pin on the Raspberry Pi.
 
-![image showing an additional lead connected to gpio 21](images/m-f-gp21.png)
+![Image showing a M-F jumper wire connected to a ground pin.](images/m-f-ground.png)
 
 --- /task ---
 
 --- task ---
 
-Add the **Raspberry Pi Simple Electronics** extension to your Scratch program.
+Now connect a second M-F jumper wire to Pin 21 on your Raspberry Pi.
 
-![image showing the Raspberry Pi GPIO extension icon in Scratch](images/gpio-extension.png)
+![Image showing an additional wire connected to GPIO 21.](images/m-f-gp21.png)
 
 --- /task ---
 
 --- task ---
 
-Add the following blocks to your script to read the input from your switch
+Add the Raspberry Pi `Simple Electronics`{:class="block3extensions"} extension to your Scratch program.
+
+![Image showing the Raspberry Pi GPIO extension icon in Scratch.](images/gpio-extension.png)
+
+--- /task ---
+
+--- task ---
+
+Add the following blocks to your script to read the input from your switch.
 
 ```blocks3
 when button [21 v] is [pressed v] ::hat extension
@@ -68,7 +68,7 @@ move (10) steps
 
 --- task ---
 
-Click the green flag, and touch the two jumper leads together. You should see the sprite move 10 steps. Break the connection and touch the leads together again and it should move another 10 steps.
+Click the green flag, and touch the two jumper wires together. You should see the sprite move ten steps. Break the connection, then touch the wires together again and it should move another ten steps.
 
 --- /task ---
 
