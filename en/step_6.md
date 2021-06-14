@@ -1,6 +1,5 @@
 ## What next?
 
-Now that you have made a button and know how to use it to control something in a Scratch program, have a think about what other games you could add a physical controller to. You could make your own game or remix somebody else's game.
+If you are following the [Physical computing with Scratch and the Raspberry Pi path](https://projects.raspberrypi.org/en/pathways/physical-computing-with-scratch-and-the-raspberry-pi) pathway, you can move on to the [Wire loop game project](https://projects.raspberrypi.org/en/projects/rpi-wire-loop-game-scratch)
 
-You could also move on to the next project in this pathway — [the Wire loop game](https://projects.raspberrypi.org/en/projects/rpi-wire-loop-game-scratch) — and look at how you can combine what you have learned about inputs and outputs into a brand new project.
-
+If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
