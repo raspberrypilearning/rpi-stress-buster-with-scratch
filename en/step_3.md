@@ -1,6 +1,6 @@
 ## Adding a switch to a game
 
-The [Stress ball](https://projects.raspberrypi.org/en/projects/flappy-parrot) project is a stress relieving program that you can add a physical controller to. You can either use the instructions to create the game yourself, or you can download the finished project at [rpf.io/en/p/stress-ball-get](https://rpf.io/en/p/stress-ball-get).
+The [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball) project is a stress relieving program that you can add a physical controller to. You can either use the instructions to create the game yourself, or you can download the finished project at [rpf.io/en/p/stress-ball-get](https://rpf.io/en/p/stress-ball-get).
 
 --- task ---
 
