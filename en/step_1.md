@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you will add a button to the [Stress ball](projects.raspberrypi.org/en/projects/stress-ball) project, so that you can squeeze the **Ball** sprite by pressing a button.
+In this project, you will add a button to the [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball){:target='_blank'} project, so that you can squeeze the **Ball** sprite by pressing a button.
 
 ### What you will make
 
