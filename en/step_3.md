@@ -1,6 +1,6 @@
 ## Adding a switch to a game
 
-The stress-relieving [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball) project is perfect for adding a physical controller to. If you haven't already done so, you can make your own version of the game by following the instructions, or you can [download the finished project](https://rpf.io/en/p/stress-ball-get).
+The stress-relieving [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball) project is perfect for adding a physical controller to. If you haven't already done so, you can make your own version of the game by following the instructions, or you can [download the finished project](https://rpf.io/p/en/stress-ball-get).
 
 --- task ---
 
