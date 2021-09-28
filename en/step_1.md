@@ -54,8 +54,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/simple-scratch-game-controller-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/rpi-stress-buster-with-scratch-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/simple-scratch-game-controller/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/rpi-stress-buster-with-scratch/print){:target="_blank"}.
 
 --- /collapse ---
