@@ -11,13 +11,13 @@ steps:
   - title: Adding a switch to a game
     completion: engaged  
   - title: Make your own button
+    completion: internal 
   - title: Reflection
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
-      passing_score: 3
-    completion: internal        
+      passing_score: 3       
   - title: What next?
     completion: external  
   
