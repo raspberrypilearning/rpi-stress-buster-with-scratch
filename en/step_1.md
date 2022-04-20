@@ -23,7 +23,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi computer
-+ 2 × M-F jumper wires
++ 2 × pin-to-socket jumper wires
 + A drinking straw
 + A sheet of aluminium foil
 + Some glue
