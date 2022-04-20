@@ -46,7 +46,7 @@ Glue the second foil square on top of the straws to make a 'straw sandwich'.
 
 --- task ---
 
-Tape one M-F jumper wire to the bottom square of foil, and the other to the top square of foil. It doesn't matter which wire goes to which square.
+Tape one pin-to-socket jumper wire to the bottom square of foil, and the other to the top square of foil. It doesn't matter which wire goes to which square.
 
 ![Image of wires taped to the top and bottom squares of foil,](images/leads-attached.jpg)
 
