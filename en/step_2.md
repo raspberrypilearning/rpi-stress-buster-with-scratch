@@ -29,7 +29,7 @@ A switch works by letting electricity flow from one wire to another wire, by clo
 
 ![Image of switch, resistor, battery, and LED. The switch closes and current is allowed to flow.](https://rpf-futurelearn.s3-eu-west-1.amazonaws.com/teaching-physical-computing/circuitflow.gif)
 
-You can make your own switch for your Raspberry Pi using two M-F jumper wires.
+You can make your own switch for your Raspberry Pi using two pin-to-socket jumper wires.
 
 --- task ---
 
@@ -41,7 +41,7 @@ Connect one of your jumper wires to a ground pin on the Raspberry Pi.
 
 --- task ---
 
-Now connect a second M-F jumper wire to Pin 21 on your Raspberry Pi.
+Now connect a second pin-to-socket jumper wire to Pin 21 on your Raspberry Pi.
 
 ![Image showing an additional wire connected to GPIO 21.](images/m-f-gp21.png)
 
