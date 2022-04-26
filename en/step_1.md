@@ -2,8 +2,11 @@
 
 In this project, you will add a button to the [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball){:target='_blank'} project, so that you can squeeze the **Ball** sprite by pressing a button.
 
-### What you will make
-
+You will:
++ Make a simple switch with jumper wires
++ Use Scratch to detect physical inputs
++ Make your own button
+  
 --- no-print ---
 
 ![Animation of a homemade button being squeezed, which causes a sprite to change in Scratch.](images/simple-scratch-game-controller.gif)
@@ -16,10 +19,7 @@ In this project, you will add a button to the [Stress ball](https://projects.ras
 
 --- /print-only ---
 
---- collapse ---
----
-title: What you will need
----
+In order to complete this project you will need:
 ### Hardware
 
 + A Raspberry Pi computer
@@ -30,32 +30,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 Desktop
++ Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
+
 
 ### Downloads
 
 + Download the [Stress ball project](http://rpf.io/p/en/stress-ball-get){:target="_blank"} and unzip the folder.
 
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ How to make a simple switch with jumper wires
-+ How to use Scratch to detect physical inputs
-+ How to make your own button
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/rpi-stress-buster-with-scratch-get){:target="_blank"}.
-
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/rpi-stress-buster-with-scratch/print){:target="_blank"}.
-
---- /collapse ---

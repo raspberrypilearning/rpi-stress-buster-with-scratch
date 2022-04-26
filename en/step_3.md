@@ -6,6 +6,26 @@ The stress-relieving [Stress ball](https://projects.raspberrypi.org/en/projects/
 
 Open the Stress ball Scratch project on your Raspberry Pi, using the Desktop version.
 
+--- collapse ---
+---
+title: Opening a downloaded Scratch 3 Desktop project
+---
+
+Once you have downloaded the zip file from the link above, open your file manager and navigate to the **Downloads** folder.
+
+Find the file you just downloaded. It will end in `.zip`.
+
+Right click on the file and choose 'Extract files'. Extract them to your downloads folder.
+
+In Scratch 3 Desktop, click the `File` menu and choose `Load from your computer`.
+
+Navigate to your downloads folder again and select the file `Stress Ball - challenge.sb3`. 
+
+Click `OK` or press `Enter`.
+
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
