@@ -29,6 +29,6 @@ The button has been upgraded by adding some contacts to either side of the insid
 title: Completed Project
 ---
 
-You can download the completed Stress Ball project [here](http://rpf.io/p/en/rpi-stress-buster-with-scratch-get){:target="_blank"}.
+You can download the completed Stress Buster project [here](http://rpf.io/p/en/rpi-stress-buster-with-scratch-get){:target="_blank"}.
 
 --- /collapse ---
