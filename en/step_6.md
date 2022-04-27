@@ -17,7 +17,7 @@ You could:
 Car Smash Stress Ball:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TpzXzNH8Boo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This project has done several of those things! The sprite has been changed to a car, which has costumes showing increasing signs of damage to the car. 
+This project has done several of those things! The sprite has been changed to a car, which has costumes showing increasing signs of damage to the car as more hits are recorded. 
 
 The sounds are all added from the Scratch `Effects` library, and include: `Bonk`, `Crunch`, `Car Horn` and `Glass Breaking`.
 
@@ -29,7 +29,7 @@ The button has been upgraded by adding some contacts to either side of the insid
 title: Completed Project
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/rpi-stress-buster-with-scratch-get){:target="_blank"}.
+You can download the completed Stress Ball project [here](http://rpf.io/p/en/rpi-stress-buster-with-scratch-get){:target="_blank"}.
 
 --- /collapse ---
 
