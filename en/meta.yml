@@ -19,6 +19,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3       
+  - title: Upgrade your project
   - title: What next?
 
   
