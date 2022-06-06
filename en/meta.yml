@@ -1,25 +1,27 @@
+---
 title: Raspberry Pi and Scratch stress buster
 hero_image: images/banner.png
 description: Control a Scratch sprite with a simple switch on your Raspberry Pi
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-02-09"
+last_tested: '2021-02-09'
 steps:
-  - title: Introduction
-  - title: A simple switch
-  - title: Adding a switch to a game
-    completion: engaged  
-  - title: Make your own button
-    completion: internal 
-  - title: Reflection
-    completion: external  
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3       
-  - title: Upgrade your project
-  - title: What next?
-
-  
+- title: Introduction
+- title: A simple switch
+- title: Adding a switch to a game
+  completion:
+  - engaged
+- title: Make your own button
+  completion:
+  - internal
+- title: Reflection
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Upgrade your project
+- title: What next?
