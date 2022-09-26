@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 In this project, you will add a button to the [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball){:target='_blank'} project, so that you can squeeze the **Ball** sprite by pressing a button.
 
@@ -31,7 +31,6 @@ In order to complete this project you will need:
 ### Software
 
 + Scratch 3 Desktop - **This project can not be completed using the online Scratch 3 editor**, and must be completed using a Raspberry Pi with the desktop version installed.
-
 
 ### Downloads
 
