@@ -4,7 +4,7 @@
 legend: Question 2 of 3
 ---
 
-Which of the following event blocks would you use to detect the press of a button on pin 21?
+Which event block would you use to detect the press of a button on pin 21?
 
 --- choices ---
 
