@@ -1,6 +1,6 @@
 ## Adding a switch to a game
 
-The stress-relieving [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball) project is perfect for adding a physical controller to. If you haven't already done so, you can make your own version of the game by following the instructions, or you can [download the finished project](https://rpf.io/p/en/stress-ball-get).
+The stress-relieving [Stress ball](https://projects.raspberrypi.org/en/projects/stress-ball){:target='_blank'} project is perfect for adding a physical controller to. If you haven't already done so, you can make your own version of the game by following the instructions, or you can [download the finished project](https://rpf.io/p/en/stress-ball-get){:target='_blank'}.
 
 --- task ---
 
@@ -38,6 +38,8 @@ Play the game, clicking on the stress ball to squeeze it.
 
 Add the Raspberry Pi `Simple Electronics`{:class="block3extensions"} extension to your project.
 
+![Image showing the Raspberry Pi GPIO extension icon in Scratch.](images/gpio-extension.png)
+
 --- /task ---
 
 --- task ---
@@ -64,6 +66,7 @@ set size to (200) %
 --- task ---
 
 Right click on the `set [whirl v] effect to (100)`{:class='block3looks'} block and choose **Duplicate** from the menu.
+![A block-based coding interface showing a context menu. The blocks include 'when this sprite clicked', 'set whirl effect', and 'play sound Meow until done'. A mouse cursor hovers over the 'Duplicate' option in the menu.](images/duplicate_sprite.png)
 
 --- /task ---
 

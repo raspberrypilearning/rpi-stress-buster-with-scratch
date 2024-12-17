@@ -1,18 +1,35 @@
-## Upgrade your project
+## Challenge
 
-Now, you can use your imagination to improve and upgrade your project. 
+Use your imagination to improve and upgrade your project!
 
 You could: 
-+ Change the costume or backdrop of your stress ball to be more interesting or cool, 
-+ Add more or better sounds, 
-+ Upgrade your button to something more robust, bigger or more fun!
+
+--- task ---
+
+Change the costume or backdrop of your stress ball to be more interesting or cool!
 
 [[[generic-scratch3-draw-sprite]]]
 [[[generic-scratch3-add-costume]]]
 [[[generic-scratch3-duplicate-costumes]]]
 [[[generic-scratch3-backdrop-from-library]]]
 [[[generic-scratch3-paint-new-backdrop]]]
+
+--- /task ---
+
+--- task ---
+
+Add more or better sounds! 
+
 [[[generic-scratch3-sound-from-library]]]
+
+--- /task ---
+
+--- task ---
+
+Upgrade your button to something more robust, bigger or more fun!
+
+
+--- /task ---
 
 Car Smash Stress Ball:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TpzXzNH8Boo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

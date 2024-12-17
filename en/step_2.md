@@ -1,6 +1,6 @@
-## A simple switch
+## A basic switch
 
-In this step, you will learn how to move a sprite using a simple switch.
+Move a sprite using a basic switch.
 
 --- task ---
 
@@ -10,9 +10,10 @@ Open Scratch on your Raspberry Pi.
 
 --- /task ---
 
---- task ---
+You should see the Scratch **Cat** sprite on the Stage. 
 
-You should see the Scratch **Cat** sprite on the Stage. Start by using a **keyboard event** to make the sprite move, using the blocks shown below.
+--- task ---
+Start by using a **keyboard event** to make the sprite move, using the blocks shown below.
 
 ```blocks3
 when  [space v] key pressed
