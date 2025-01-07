@@ -54,6 +54,24 @@ Add the Raspberry Pi `Simple Electronics`{:class="block3extensions"} extension t
 
 ![Image showing the Raspberry Pi GPIO extension icon in Scratch.](images/gpio-extension.png)
 
+--- collapse ---
+
+---
+
+title: Add the Simple Electronics extension
+
+---
+
+- Click on the **Add Extension** button in the bottom left-hand corner of the screen
+
+![The add extention icon (two seperate blocks with an 'add' sign) is highlighted.](images/add-extension.png)
+
+- Choose the Raspberry Pi Simple Electronics extension from the list
+
+![The Raspberry Pi Simple Electronics extension icon in the Extension list.](images/gpio-extension.png)
+
+--- /collapse ---
+
 --- /task ---
 
 --- task ---
