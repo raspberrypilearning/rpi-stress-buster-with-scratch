@@ -10,7 +10,7 @@ copyedit: true
 last_tested: '2021-02-09'
 steps:
   - title: You will make
-  - title: A simple switch
+  - title: A basic switch
   - title: Adding a switch to a game
     completion:
       - engaged
@@ -25,5 +25,5 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Upgrade your project
-  - title: What next?
+  - title: Challenge
+  - title: What can you do now?

@@ -1,6 +1,6 @@
 ## Make your own button
 
-Now that you have programmed your game, you can make a button that you can push to help relieve some stress.
+Now that you have programmed your game, make a button that you can push to help relieve some stress.
 
 --- task ---
 

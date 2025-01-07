@@ -1,6 +1,6 @@
-## A simple switch
+## A basic switch
 
-In this step, you will learn how to move a sprite using a simple switch.
+Move a sprite using a basic switch.
 
 --- task ---
 
@@ -10,9 +10,10 @@ Open Scratch on your Raspberry Pi.
 
 --- /task ---
 
---- task ---
+You should see the Scratch **Cat** sprite on the Stage. 
 
-You should see the Scratch **Cat** sprite on the Stage. Start by using a **keyboard event** to make the sprite move, using the blocks shown below.
+--- task ---
+Start by using a **keyboard event** to make the sprite move, using the blocks shown below.
 
 ```blocks3
 when  [space v] key pressed
@@ -52,6 +53,24 @@ Now connect a second pin-to-socket jumper wire to Pin 21 on your Raspberry Pi.
 Add the Raspberry Pi `Simple Electronics`{:class="block3extensions"} extension to your Scratch program.
 
 ![Image showing the Raspberry Pi GPIO extension icon in Scratch.](images/gpio-extension.png)
+
+--- collapse ---
+
+---
+
+title: Add the Simple Electronics extension
+
+---
+
+- Click on the **Add Extension** button in the bottom left-hand corner of the screen
+
+![The add extention icon (two seperate blocks with an 'add' sign) is highlighted.](images/add-extension.png)
+
+- Choose the Raspberry Pi Simple Electronics extension from the list
+
+![The Raspberry Pi Simple Electronics extension icon in the Extension list.](images/gpio-extension.png)
+
+--- /collapse ---
 
 --- /task ---
 
